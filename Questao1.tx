@@ -1,0 +1,6 @@
+
+1) Eu utilizaria uma ferramenta de automação como o Selenium, que abre um navegador real e consegue esperar a tabela 
+carregar na tela. Já o erro 403 ocorreu porque o site notou um padrão de robô nas requisições. Para contornar esse bloqueio, 
+eu implementaria cabeçalhos (Headers) no código com um User-Agent para simular um usuário comum,
+ além de adicionar pausas no script para evitar 
+que o acesso rápido demais seja detectado novamente
